@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oleo+Script+Swash+Caps:wght@400;700&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Great+Vibes&family=Oleo+Script+Swash+Caps:wght@400;700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Cormorant+SC:wght@300;400;500;600;700&family=Great+Vibes&family=Oleo+Script+Swash+Caps:wght@400;700&family=Pacifico&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --pink:#e79ea7;
+    --green:#d7fecf;
+    --blue:#90c6b9;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.video{
+height: 100%;
+width: 100%;
+position: absolute;
+bottom: 0;
+z-index: -100;
+right: 0;
+}
+
+
+.header{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.header h2{
+font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background: pink;
+  background-color: black;
+  font-size: 4rem;
+  background: #E79EA7;
+background: radial-gradient(circle farthest-corner at center center, #E79EA7 50%, #00FF00 50%, #90C6B9 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.header a{
+    color: white;
+    font-size: 1.8rem;
+    padding-left: 2rem;
+    font-family:"Oleo Script Swash Caps", cursive;
+    font-weight: lighter;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+span{
+    background: #E79EA7;
+background: radial-gradient(circle farthest-corner at center center, #E79EA7 0%, #00FF00 50%, #90C6B9 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: bold;
+}
+
+.maintext{
+    width: 95%;
+    height: 95vh;
+    background:transparent;
+    position: absolute;
+    left: 2.4%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.leftside{
+    height: 100%;
+    width: 35%;
+    background:transparent;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    padding: 1rem;
+    font-family: "Pacifico", cursive;
+}
+.first{
+    width: 80%;
+    height: 10%;
+    background: transparent;
+    color: white;
+    font-size: 3rem;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+
+}
+.second{
+    width: 80%;
+    height: 8%;
+    background:black;
+    color: greenyellow;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+    font-family: "Cormorant SC", serif;
+    padding-left: 20px;
+    cursor: pointer;
+}
+button{
+    width: 60%;
+    height: 4rem;
+    border-radius: 2rem;
+    background: black;
+    color: var(--pink);
+    text-align: center;
+    border: 2px solid white;
+    font-family:"Pacifico", cursive;
+    font-size: 2rem;
+    transition: 1s;
+}
+button:hover{
+    word-spacing: 0.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    padding-left: 2rem;
+
+}
+.rightside{
+    height: 100%;
+    width: 65%;
+    background:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.rightside img{
+    width: 70%;
+    height: 70%;
+}
+.container2{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.heading{
+    color: white;
+    font-size: 4rem;
+    padding-top: 4rem;
+    font-family: "Pacifico", cursive;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+}
+.underline{
+    background-color: white;
+    height: 0.5rem;
+    width: 35%;
+    position: relative;
+    border-radius: 2rem;
+    top: 10%;
+    left: 33%;
+}
+.men{
+    height: auto;
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.products{
+    width: 30rem;
+    height: 40rem;
+    color: white;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 6rem;
+    transition: 1s;
+}
+.top{
+    width: 100%;
+    height: 40%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem;
+}
+.top img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px
+}
+.bottom{
+    width: 100%;
+    height: 45%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.bottom h2{
+    font-size: 3rem;
+    text-align: center;
+}
+.bottom h3{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--green);
+}
+.products button{
+    width: 70%;
+    margin-bottom: 1rem;
+    font-family: "Oleo Script Swash Caps", cursive;
+    color: pink;
+    word-spacing: 0.5rem;
+}
+
+.products .top .products1{
+    width: 50%;
+    height: 100%;
+  
+}
+.products .top .products2{
+    width: 50%;
+    height: 100%;
+}
+.products .top .products3{
+    width: 50%;
+    height: 100%;
+}
+.products .top .products4{
+    width: 50%;
+    height: 100%;
+}
+.products .top .products5{
+    width: 80%;
+    height: 120%;
+}
+.products .top .products6{
+    width: 80%;
+    height: 125%;
+}
+.products .top .products7{
+    width: 50%;
+    height: 120%;
+}
+.products .top .products8{
+    width: 50%;
+    height: 100%;
+}
+.products .top .products9{
+    width: 40%;
+    height: 100%;
+}
+.products .top .products10{
+    width: 50%;
+    height: 100%;
+}
+.products .top .products11{
+    width: 50%;
+    height: 100%;
+}
+.products .top .products12{
+    width: 50%;
+    height: 100%;
+}
+
+.products:hover{
+    width: 33rem;
+    height: 45rem;
+    border: 2px solid greenyellow;
+    border-radius: 3rem;
+}
+
+
+.container3{
+    width: 100%;
+    width: auto;
+    background-color: white;
+}
+.container3 .products .bottom h2{
+    color: black;
+}
+
+.container3 .heading{
+    color: wheat;
+}
+.container3 .underline{
+    color: greenyellow;
+}
+.container3 .bottom h2{
+    color: black;
+}
+
+.container3 .bottom h3{
+    color: black;
+}
+.container3 .products:hover h2{
+    cursor: pointer;
+    background-color: navajowhite;
+    border-radius: 20px;
+    border: 3px solid black;
+    color: black;
+    padding: 10px;
+}
+.container3 .underline{
+    background-color: green;
+    height: 0.5rem;
+    width: 35%;
+    position: relative;
+    border-radius: 2rem;
+    top: 10%;
+    
+}
+
+
+.container4{
+    width: 100%;
+    width: auto;
+    background-color: black;
+}
+.container4 .products .bottom h2{
+    color: wheat;
+}
+
+.container4 .heading{
+    color: white;
+}
+.container4 .underline{
+    color: greenyellow;
+}
+.container4 .bottom h2{
+    color: black;
+}
+
+.container4 .bottom h3{
+    color: rgb(81, 167, 81);
+}
+.container4 .products:hover h2{
+    cursor: pointer;
+    background-color: navajowhite;
+    border-radius: 20px;
+    border: 3px solid black;
+    color: black;
+    padding: 10px;
+}
+.container4 .underline{
+    background-color: green;
+    height: 0.5rem;
+    width: 35%;
+    position: relative;
+    border-radius: 2rem;
+    top: 10%;
+    
+}
+
+
+.container5{
+    width: 100%;
+    width: auto;
+    background-color: white;
+}
+.container5 .products .bottom h2{
+    color: black;
+}
+
+.container5 .heading{
+    color: wheat;
+}
+.container5 .underline{
+    color: greenyellow;
+}
+.container5 .bottom h2{
+    color: black;
+}
+
+.container5 .bottom h3{
+    color: black;
+}
+.container5 .products:hover h2{
+    cursor: pointer;
+    background-color: navajowhite;
+    border-radius: 20px;
+    border: 3px solid black;
+    color: black;
+    padding: 10px;
+}
+.container5 .underline{
+    background-color: green;
+    height: 0.5rem;
+    width: 35%;
+    position: relative;
+    border-radius: 2rem;
+    top: 10%;
+    
+}
+
+
+.container6{
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20rem;
+    text-align: center;
+}
+
+.offers2{
+    background: white;
+    width: 85%;
+    height: 90rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.parts{
+    width: 35rem;
+    height: 30rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    gap: 10px;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    transition: 1s;
+}
+.parts h1{
+    font-size: 3rem;
+    font-size:"Oleo Script Swash Caps", cursive;
+}
+.parts p{
+    font-size: 1.5rem;
+    font-size: cormorant SC, serif;
+}
+.parts img{
+    width: 60%;
+    height: 60%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#two{
+    background-color: black;
+    border: 2px solid white;
+    color: wheat;
+}
+.parts button{
+    font-family: "Cookie", cursive;
+    word-spacing: 1rem;
+}
+.parts:hover{
+    height: 40rem;
+    height: 35rem;
+    cursor: pointer;
+}
+.heading1{
+    align-items: center;
+}
+
+/*This is the media Query Part*/
+
+@media (min-aspect-ratio:16/9) {
+    .video{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+@media (max-aspect-ratio:16/9) {
+    .video{
+        width: auto;
+        height: 100%;
+    }
+    
+}
